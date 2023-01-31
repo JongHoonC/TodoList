@@ -13,7 +13,7 @@
         v-bind:class="{ completed: todo.complete }"
         @click="complete(todo, index)"
       >
-        {{ todo.dates }}에는 {{ todo.item }} 을(를) 할 예정입니다.
+        {{ todo.dates }} 에는 {{ todo.item }} 을(를) 할 예정입니다.
         <button @click="removeTodo(todo, index)">
           <span>-</span>
         </button>
